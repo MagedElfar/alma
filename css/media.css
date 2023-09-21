@@ -1,0 +1,42 @@
+/* ? This file for responsive design ? */
+
+/* ? Extra small devices (portrait phones, less than 576px) ? */
+/* No media query since this is the default in Bootstrap */
+@media (max-width: 575px) {}
+
+/* ? Small devices (landscape phones, 576px and up) ? */
+@media (min-width: 576px) {}
+
+/* ? Medium devices (tablest, 768px and up) ? */
+@media (max-width: 768px) {
+  .home-wrapper {
+    left: 20px;
+  }
+  .home-wrapper h2 {
+    font-size: 18px;
+  }
+  .three-d-carousel-section .stage {
+    height: calc(100% - 100px) !important;
+  }
+  
+.three-d-carousel-section .t-container {
+  bottom: 0px;
+}
+  .investment-section {
+    margin-top: -50px;
+  }
+}
+
+/* ? Medium devices (tablest, 768px and up) ? */
+@media (min-width: 768px) {}
+
+/* ? Large devices (desktops, 992px and up) ? */
+@media (max-width: 992px) {
+  
+}
+
+/* ? Large devices (desktops, 992px and up) ? */
+@media (min-width: 992px) {}
+
+/* ? Extra large devices (large desktops, 1200px and up) ? */
+@media (min-width: 1200px) {}

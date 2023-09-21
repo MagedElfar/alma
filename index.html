@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/all.min.css" />
+  <link rel="stylesheet" id="bsCssFile" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/global.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" id="title" href="./css/media.css" />
+</head>
+
+<body>
+  <!-- <h1 data-i18n="HELLO_WORLD"></h1> -->
+  <!-- <select data-i18n-switcher class="locale-switcher">
+    <option value="en">English</option>
+    <option value="ar">Arabic (العربية)</option>
+  </select> -->
+
+  <!-- <h1 data-i18n-key="HELLO_WORLD" class="text-main-color">Hello world</h1>
+  <p data-i18n-key="LOREM" class="text-second-color">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae omnis atque dolorem hic deserunt harum accusantium error cum fuga quasi debitis libero vel ratione, quos qui praesentium inventore aperiam incidunt!</p> -->
+
+  <!-- Start Header -->
+  <header>
+    <nav class="navbar w-100 header" id="header">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-center align-items-center w-100">
+          <div class="row w-100">
+            <div class="col-4 justify-content-end d-flex">
+              <div class="v-line-container">
+                <div class="v-line"></div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="header-logo me-auto mb-2 mb-lg-0 d-flex justify-content-center w-100">
+                <img src="/assets/images/logo.svg" alt="ALMA" style="width: 100%;" />
+              </div>
+            </div>
+            <div class="col-4 d-flex align-itemsend justify-contentend">
+              <div class="v-line-container">
+                <div class="v-line"></div>
+              </div>
+              <div class="locale-switcher-container d-flex align-items-center">
+                <!-- <select data-i18n-switcher class="locale-switcher form-select" aria-label="Language"
+                  style="max-width: 75px">
+                  <option value="en">En</option>
+                  <option value="ar">Ar</option>
+                </select> -->
+                <a href="index-ar.html" style="color:#fff; text-decoration: none;">Ar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End Header -->
+
+  <!-- Start home section -->
+  <section class="home-section">
+    <div class="container">
+      <div class="bg-section"></div>
+      <div class="home-wrapper">
+        <h2 data-i18n-key="HOME_TITLE">Elegance meets waterfront living</h2>
+        <div class="d-flex mt-2">
+          <a href="#" class="circled-btn text-uppercase mx-1" data-i18n-key="HOME_BUTTON_1">Check out more</a>
+          <a href="#" class="outlined-btn text-uppercase mx-1" data-i18n-key="HOME_BUTTON_2">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End home section -->
+
+  <!-- <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+      </div>
+    </div> -->
+  <!-- Slider main container -->
+  <!-- <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        ...
+      </div>
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <div class="swiper-scrollbar"></div>
+    </div> -->
+
+  <!-- <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="https://example.com/image1.jpg" />
+          <h2>Slide 1</h2>
+          <p>Description for slide 1</p>
+        </div>
+        
+        <div class="swiper-slide">
+          <img src="https://example.com/image2.jpg" />
+          <h2>Slide 2</h2>
+          <p>Description for slide 2</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="https://example.com/image1.jpg" />
+          <h2>Slide 1</h2>
+          <p>Description for slide 1</p>
+        </div>
+        
+        <div class="swiper-slide">
+          <img src="https://example.com/image2.jpg" />
+          <h2>Slide 2</h2>
+          <p>Description for slide 2</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="https://example.com/image1.jpg" />
+          <h2>Slide 1</h2>
+          <p>Description for slide 1</p>
+        </div>
+        
+        <div class="swiper-slide">
+          <img src="https://example.com/image2.jpg" />
+          <h2>Slide 2</h2>
+          <p>Description for slide 2</p>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div> -->
+
+  <!-- Start About Section -->
+  <section class="about-section">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+          <div class="row">
+            <div class="col-5 d-flex justify-content-end align-items-center">
+              <h2 class="text-second-color text-center w-100" data-i18n-key="ABOUT_WELCOME">Welcome to</h2>
+            </div>
+            <div class="col-7 d-flex justify-content-start">
+              <img class="w-100" style="max-height: 150px" src="/assets/images/logo.png" alt="ALMA" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <p data-i18n-key="ABOUT_PARAGRAPH_1" class="about-paragraph text-main-color paragraph-1">
+            Alma destination is envisioned to be a premier waterfront
+            mixed-use destination build on the Red Sea coast on an area of
+            3.125 million m2 divided into 7 districts centered with 2 islands,
+            connecting them all via bridte and water canals designed according
+            to the highest urban planning standards. The destination also
+            features the first residential island in Jeddah.
+          </p>
+          <p data-i18n-key="ABOUT_PARAGRAPH_2" class="about-paragraph text-second-color paragraph-2">
+            The destiantionn will be featuring an array of residential,
+            hospitality, retail, office and entertainment components, all of
+            which onlook magnificent sea views, providing a unique tourism
+            product of its kind on the Red Sea coast.
+          </p>
+          <p data-i18n-key="ABOUT_PARAGRAPH_3" class="about-paragraph text-main-color paragraph-3">
+            Alma destination shines with its waterfronts extending over a
+            distance of 12.5 km and provides a mine of unique opportunities
+            for investors looking to develop coastal projects in the tourism,
+            residential, retail, hospitality and entertainment sectors. It
+            also hosts a number of marinas for boats and luxuray yachts, and
+            high-end public facilities. The destination also provides open
+            spaces and areas on the sea and on internal water canals.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Start Carousel Section -->
+  <div class="first-carousel-section">
+    <div class="pop-up">
+      <div class="info">
+        <div class="close" onclick="closePop()">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <h4 class="pop-h4">...</h4>
+        <h3 class="pop-h3" style="display: flex"></h3>
+        <p class="pop-p">
+          ...
+        </p>
+      </div>
+    </div>
+
+    <div class="splide-container">
+      <div class="splide" id="my-splide">
+        <div class="splide__track">
+          <div class="splide__list">
+            <div class="splide__slide col-md-4 col-12"
+              onclick="addPop('SLIDER_FB_ENTERTAINMENT', 'SLIDER_FB_ENTERTAINMENT_SUBTITLE', 'SLIDER_FB_ENTERTAINMENT_PARAGRAPH')">
+              <img class="slider-img" src="/assets/images/first-slider/1.jpg" alt="Image 1" />
+              <h4 data-i18n-key="SLIDER_FB_ENTERTAINMENT">
+                F&B and Entertainment
+              </h4>
+            </div>
+            <div class="splide__slide col-md-4 col-12"
+              onclick="addPop('SLIDER_RESORTS', 'SLIDER_RESORTS_SUBTITLE', 'SLIDER_RESORTS_PARAGRAPH')">
+              <img class="slider-img" src="/assets/images/first-slider/2.jpg" alt="Image 2" />
+              <h4 data-i18n-key="SLIDER_RESORTS">Resorts</h4>
+            </div>
+            <div class="splide__slide col-md-4 col-12"
+              onclick="addPop('SLIDER_MARINA_AND_PIERS', 'SLIDER_MARINA_AND_PIERS_SUBTITLE', 'SLIDER_MARINA_AND_PIERS_PARAGRAPH')">
+              <img class="slider-img" src="/assets/images/first-slider/3.jpg" alt="Image 3" />
+              <h4 data-i18n-key="SLIDER_MARINA_AND_PIERS">Marina and Piers</h4>
+            </div>
+            <div class="splide__slide col-md-4 col-12"
+              onclick="addPop('SLIDER_HOSPITALITY_AND_HOTEL_SERVIES', 'SLIDER_HOSPITALITY_AND_HOTEL_SERVIES_SUBTITLE', 'SLIDER_HOSPITALITY_AND_HOTEL_SERVIES_PARAGRAPH')">
+              <img class="slider-img" src="/assets/images/first-slider/4.jpg" alt="Image 4" />
+              <h4 data-i18n-key="SLIDER_HOSPITALITY_AND_HOTEL_SERVIES">
+                Hospitality and Hotel Services
+              </h4>
+            </div>
+            <div class="splide__slide col-md-4 col-12"
+              onclick="addPop('SLIDER_RENTAL_SPACES_AND_OFFICES', 'SLIDER_RENTAL_SPACES_AND_OFFICES_SUBTITLE', 'SLIDER_RENTAL_SPACES_AND_OFFICES_PARAGRAPH')">
+              <img class="slider-img" src="/assets/images/first-slider/5.jpg" alt="Image 5" />
+              <h4 data-i18n-key="SLIDER_RENTAL_SPACES_AND_OFFICES">
+                Rental Spaces and Offices
+              </h4>
+            </div>
+            <div class="splide__slide col-md-4 col-12"
+              onclick="addPop('SLIDER_RESIDENTIAL_PLOTS', 'SLIDER_RESIDENTIAL_PLOTS_SUBTITLE', 'SLIDER_RESIDENTIAL_PLOTS_PARAGRAPH')">
+              <img class="slider-img" src="/assets/images/first-slider/6.jpg" alt="Image 6" />
+              <h4 data-i18n-key="SLIDER_RESIDENTIAL_PLOTS">Residential Plots</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Carousel Section -->
+  <!-- start parallax sec-->
+  <div class="parallax-sec-container ">
+    <div class="parallax-sec">
+
+      <div class="parallax-div">
+        <div class="parallax-div-text">
+          <div class="sub-title">
+            <h3 data-i18n-key="PARALLAX_TITLE_1">Resorts</h3>
+          </div>
+
+          <div class="text-body">
+            <p data-i18n-key="PARALLAX_BODY_1">
+              We have an unwavering commitment to offer our people world-leading experiences and exceptional
+              opportunities and support our destinations’ local communities. Our business is powered by extraordinary
+              employees who embody our transformative vision for sustainable tourism and responsible development, with a
+              hunger to change the status quo. We want to enrich society by channeling investment and exceptional
+              opportunities into the social and cultural fabric of Saudi Arabia, to help realize the country’s full
+              potential and nurture the careers of ambitious men and women from the Kingdom and beyond. Our guests are
+              an extension of the Red Sea Global family. We are committed to offering the very best in customer service
+              and providing them with once-in-a-lifetime experiences that they will treasure long into the future.
+            </p>
+          </div>
+        </div>
+
+        <div class="parallax-div-images">
+          <div class="top-image">
+            <img src="/assets/images/parallax-slider/img-1.jpg" />
+          </div>
+          <div class="bottom-image">
+            <img src="/assets/images/parallax-slider/img-2.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="parallax-div">
+        <div class="parallax-div-text">
+          <div class="sub-title">
+            <h3 data-i18n-key="PARALLAX_TITLE_2">Residential plots</h3>
+          </div>
+
+          <div class="text-body">
+            <p data-i18n-key="PARALLAX_BODY_2">
+              Red Sea Global prioritizes people and planet. We recognize that the environment is our most precious asset
+              and that we must endeavor to not only protect it, but actively enhance it. As a sustainable, multi-project
+              developer, we bear a responsibility to set the global benchmark for responsible development, showing the
+              world there is a better way to create, manage and contribute to the world we live in.
+            </p>
+          </div>
+        </div>
+
+        <div class="parallax-div-images">
+          <div class="top-image">
+            <img src="/assets/images/parallax-slider/image-3.jpg" />
+          </div>
+          <div class="bottom-image">
+            <img src="/assets/images/parallax-slider/image-4.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="parallax-div">
+        <div class="parallax-div-text">
+          <div class="sub-title">
+            <h3 data-i18n-key="PARALLAX_TITLE_3">Rental Spaces and Offices</h3>
+          </div>
+
+          <div class="text-body">
+            <p data-i18n-key="PARALLAX_BODY_3">
+              At Red Sea Global (RSG), our ambition is to preserve and enhance the natural environment as we deliver on
+              our commitment to become the world’s most ambitious regenerative tourism project. Red Sea Global takes a
+              comprehensive approach to setting new standards in good governance, compliance, and risk management. We
+              have embedded a holistic approach to structural governance into the business at every level, from
+              construction through to hospitality operations.
+            </p>
+          </div>
+        </div>
+
+        <div class="parallax-div-images">
+          <div class="top-image">
+            <img src="/assets/images/parallax-slider/image-5.jpg" />
+          </div>
+          <div class="bottom-image">
+            <img src="/assets/images/parallax-slider/image-6.jpeg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="parallax-div">
+        <div class="parallax-div-text">
+          <div class="sub-title">
+            <h3 data-i18n-key="PARALLAX_TITLE_4">Hospitality/ Hote services and hotel villas </h3>
+          </div>
+
+          <div class="text-body">
+            <p data-i18n-key="PARALLAX_BODY_4">
+              We have an unwavering commitment to offer our people world-leading experiences and exceptional
+              opportunities and support our destinations’ local communities. Our business is powered by extraordinary
+              employees who embody our transformative vision for sustainable tourism and responsible development, with a
+              hunger to change the status quo. We want to enrich society by channeling investment and exceptional
+              opportunities into the social and cultural fabric of Saudi Arabia, to help realize the country’s full
+              potential and nurture the careers of ambitious men and women from the Kingdom and beyond. Our guests are
+              an extension of the Red Sea Global family. We are committed to offering the very best in customer service
+              and providing them with once-in-a-lifetime experiences that they will treasure long into the future.
+            </p>
+          </div>
+        </div>
+
+        <div class="parallax-div-images">
+          <div class="top-image">
+            <img src="/assets/images/parallax-slider/img-1.jpg" />
+          </div>
+          <div class="bottom-image">
+            <img src="/assets/images/parallax-slider/img-2.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="parallax-div">
+        <div class="parallax-div-text">
+          <div class="sub-title">
+            <h3 data-i18n-key="PARALLAX_TITLE_5">F&B and Entertainment</h3>
+          </div>
+
+          <div class="text-body">
+            <p data-i18n-key="PARALLAX_BODY_5">
+              Red Sea Global prioritizes people and planet. We recognize that the environment is our most precious asset
+              and that we must endeavor to not only protect it, but actively enhance it. As a sustainable, multi-project
+              developer, we bear a responsibility to set the global benchmark for responsible development, showing the
+              world there is a better way to create, manage and contribute to the world we live in.
+            </p>
+          </div>
+        </div>
+
+        <div class="parallax-div-images">
+          <div class="top-image">
+            <img src="/assets/images/parallax-slider/image-3.jpg" />
+          </div>
+          <div class="bottom-image">
+            <img src="/assets/images/parallax-slider/image-4.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="parallax-div">
+        <div class="parallax-div-text">
+          <div class="sub-title">
+            <h3 data-i18n-key="PARALLAX_TITLE_6">Marina and piers</h3>
+          </div>
+
+          <div class="text-body">
+            <p data-i18n-key="PARALLAX_BODY_6">
+              At Red Sea Global (RSG), our ambition is to preserve and enhance the natural environment as we deliver on
+              our commitment to become the world’s most ambitious regenerative tourism project. Red Sea Global takes a
+              comprehensive approach to setting new standards in good governance, compliance, and risk management. We
+              have embedded a holistic approach to structural governance into the business at every level, from
+              construction through to hospitality operations.
+            </p>
+          </div>
+        </div>
+
+        <div class="parallax-div-images">
+          <div class="top-image">
+            <img src="/assets/images/parallax-slider/image-5.jpg" />
+          </div>
+          <div class="bottom-image">
+            <img src="/assets/images/parallax-slider/image-6.jpeg" />
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- end parallax sec-->
+
+  <!-- Start Statistics Section -->
+  <section class="statistics-section">
+    <div class="row text-center">
+      <div class="col-md-4 mb-4 mb-lg-0">
+        <div class="statistic text-second-color">
+          <span class="count">3.1</span>
+          <h4 data-i18n-key="STATISTICS_AREA_TITLE_1" class="title-1">Million m <sup>2</sup></h4>
+          <h4 data-i18n-key="STATISTICS_AREA_TITLE_2" class="title-2 text-capitalize">Area</h4>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-lg-0">
+        <div class="statistic text-main-color">
+          <span class="count">12.5</span>
+          <h4 data-i18n-key="STATISTICS_WATERFRONT_TITLE_1" class="title-1">km</h4>
+          <h4 data-i18n-key="STATISTICS_WATERFRONT_TITLE_2" class="title-2 text-capitalize">Waterfront Length</h4>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-lg-0">
+        <div class="statistic text-second-color">
+          <span class="count">4.5</span>
+          <h4 data-i18n-key="STATISTICS_PROMENADE_TITLE_1" class="title-1">km</h4>
+          <h4 data-i18n-key="STATISTICS_PROMENADE_TITLE_2" class="title-2 text-capitalize">Promenade</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Statistics Section -->
+
+  <!-- Start Journey Section -->
+  <section class="journey-section">
+    <!-- bg img -->
+    <div class="row justify-content-center">
+      <div class="bg-image"></div>
+      <h2 data-i18n-key="JOURNEY_TITLE" class="text-main-color text-center text-capitalize mb-5">
+        A Journey Through Alma Destination
+      </h2>
+      <div class="col-8 col-md-8 col-lg-8 col-xxl-8">
+        <div class="col-video">
+          <video class="" src="/assets/videos/Alma_Destination.mp4" controls="" poster="/assets/images/bg1.jpg"></video>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Journey Section -->
+
+  <!-- Start Sustainable Section -->
+  <section class="sustainable-section">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+          <img class="w100" style="max-height: 200px" src="/assets/images/logo.png" alt="ALMA" />
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <h2 data-i18n-key="SUSTAINABLE_TITLE"
+            class="sustainable-title text-main-color text-capitalize font-weight-bold">
+            Here is a Sustainable Destination
+          </h2>
+          <p data-i18n-key="SUSTAINABLE_PARAGRAPH" class="sustainable-paragraph text-second-color">
+            To ensure the sustainability of the environment of Alma
+            destination and the sfety of the marine life around it, several
+            studies were conducted before the start of construction work, and
+            many steps were taken in cooperation with local and international
+            experts. Such as: moving coral reefs from the drilling area, and
+            replanting them in a stuitabl marine area to maintain their
+            safety. Also, maintaining the quality of water in the
+            destination's canals through a asustainable and eco-friendly water
+            circulation mechanism that takes advantage of the tidal movement
+            to constantly replenish the water and maintain its purity.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Sustainable Section -->
+
+  <!-- Start 3D Carousel Section -->
+  <section class="three-d-carousel-section">
+    <div class="stage">
+      <div class="d-flex justify-content-center align-items-center w-100">
+        <div class="row w-100 justify-content-center">
+          <div class="col-12 col-md-6">
+            <p data-i18n-key="THREE_D_TITLE" class="text-second-color text-center w50 px-5">
+              Alma destination provides a modern lifestyle through a masterplan
+              comprised of
+              <span class="text-main-color fw-bold">7 districts</span> of infinite
+              creativity and innovation
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="t-container">
+        <div class="ring">
+          <div class="img">
+            <h4>Marine Village</h4>
+          </div>
+          <div class="img">
+            <h4>Resort Island</h4>
+          </div>
+          <div class="img">
+            <h4>Test</h4>
+          </div>
+          <div class="img">
+            <h4>Test</h4>
+          </div>
+          <div class="img">
+            <h4>Test</h4>
+          </div>
+          <div class="img">
+            <h4>Test</h4>
+          </div>
+          <div class="img">
+            <h4>Urban Park</h4>
+          </div>
+        </div>
+      </div>
+      <svg class="three-d-carousel-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffffffff" fill-opacity="1"
+          d="M -1 320 L 113 283 C 240 245 378 212 680 208 C 1000 209 1057 208 1329 279 L 1440 320 L 1440 320 L 1320 320 C 1200 320 960 320 720 320 C 480 320 240 320 120 320 L 0 320 Z">
+        </path>
+      </svg>
+    </div>
+    <!-- <path class="ad-Path" d="M 0 350 C 250 250 550 250 800 350 " data-reactid=".0.0.0.0.1"></path> -->
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,288L120,266.7C240,245,480,203,720,208C960,213,1200,267,1320,293.3L1440,320L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg> -->
+    <!-- <svg class="three-d-carousel-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffffff" fill-opacity="1" d="M -1 320 L 113 283 C 240 245 378 212 680 208 C 1000 209 1057 208 1329 279 L 1440 320 L 1440 320 L 1320 320 C 1200 320 960 320 720 320 C 480 320 240 320 120 320 L 0 320 Z"></path></svg> -->
+  </section>
+  <!-- Start 3D Carousel section -->
+
+  <!-- Start Investment Section -->
+  <section class="investment-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <h2 class="text-main-color text-center text-capitalize fw-bold">
+          Infinite Investment Opportunities
+        </h2>
+        <div class="col-12 col-md-8 text-center">
+          <p data-i18n-key="INVESTMENT_PARAGRAPH_1" class="text-second-color investment-paragraph">
+            <span class="fw-bold">From a Magical Fantasy to a Reality Reach</span><br />
+            Alma destination is filled with endless investment opportunities
+            through various competitive packages. 49.4% of the destination's
+            area has been allocated to residential, commercial, and mixed-use
+            projects and products that keep up with the aspirations of users
+            and investors alike, to support local content in various stages of
+            development, and to enrich sectors of housing, tourism and
+            entertainment, and contribute to raising the quality of life and
+            increasing the percentage of citizens' home ownership.
+          </p>
+          <p data-i18n-key="INVESTMENT_PARAGRAPH_2" class="text-second-color investment-paragraph">
+            Alma destination is a qualitative addition to the Saudi tourism
+            product through the distinctive resorts, beaches and entertainment
+            facilities that will be developed by investors, which will provide
+            opportunities for recreation and practicing various land and sea
+            sports that will contribute to enhancing the vitality of society
+            in line with the ambitious goals of the Saudi Vision 2030.
+          </p>
+        </div>
+
+        <div class="col-12">
+          <div class="mt-4 d-flex justify-content-center">
+            <a data-i18n-key="INVESTMENT_CONTACT_BUTTON" href="#" class="circled-btn text-uppercase mx-1">Contact Us</a>
+            <a data-i18n-key="INVESTMENT_BROCHURE_BUTTON" href="#" class="outlined-btn text-uppercase mx-1">Brochure
+              Link</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-8">
+          <img class="map-img" src="/assets/images/map.png" alt="ALMA Map" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Investment Section -->
+
+  <!-- Start Footer -->
+  <footer class="footer" id="footer">
+    <div class="footer-bg">
+      <div class="container">
+        <div class="bg-section"></div>
+        <div class="footer-wrapper"></div>
+      </div>
+    </div>
+    <div class="footer-body">
+      <div class="contact" id="contact">
+        <div class="footer-card">
+          <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            tempora exercitationem explicabo atque ex earum maiores dolores. -->
+          <div data-i18n-key="FOOTER_CARD_TITLE" class="footer-card-title text-main-color fw-bold">Be the first to know
+            the developments and latest happenings at ALMA</div>
+          <form class="footer-card-form">
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" placeholder="First name" class="footer-card-form-inputs" />
+              </div>
+
+              <div class="col-lg-6">
+                <input type="text" placeholder="Last name" class="footer-card-form-inputs" />
+              </div>
+
+              <div class="col-lg-9">
+                <input type="email" placeholder="E-mail Address" class="footer-card-form-inputs" />
+              </div>
+              <div class="col-lg-3">
+                <button data-i18n-key="FOOTER_CARD_SUBMIT_BUTTON" class="footer-circled-btn"
+                  type="submit">Submit</button>
+              </div>
+              <div data-i18n-key="FOOTER_CARD_NOTE" class="text-main-color text-small">I wish to receive news and
+                updates from ALMA according to the Privacy Policy.</div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="container h-100">
+        <div class="d-flex justify-content-between align-items-center w-100 h-100">
+          <div class="start">
+            <img height="100" src="/assets/images/logo.svg" alt="ALMA">
+            <h5 data-i18n-key="FOOTER_COPYRIGHT" class="footer-copy-right">&copy; 2023, Alma Sea Global. All rights
+              reserved.</h5>
+          </div>
+          <div class="left text-end">
+            <div class="icons text-end mt-5">
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="d-flex">
+              <span data-i18n-key="FOOTER_LINK_TERMS_CONDITIONS" class="footer-links">Terrms & Conditions</span>
+              <span data-i18n-key="FOOTER_LINK_PRIVACY_POLICY" class="footer-links">Privacy Policy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/gsap/dist/gsap.min.js"></script> -->
+  <!-- <script src="./js/inirtia-plugin.min.js"></script>
+    <script src="./js/draggable.min.js"></script> -->
+  <!-- <script src="./js/inirtia-plugin.min.js"></script> -->
+  <script src="./js/draggable.min.js"></script>
+  <script src="./js/zepto.min.js"></script>
+  <script src="./js/gsap.min.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="./js/splide.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/localization.js"></script>
+  <script src="./js/sliders.js"></script>
+  <script src="./js/popup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

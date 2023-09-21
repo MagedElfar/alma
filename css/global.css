@@ -1,0 +1,62 @@
+:root {
+  /* --main-color: rgb(0, 160, 189); */
+  /* --main-color: #2a707a; */
+  --main-color: rgb(6, 131, 149);
+  --main-color-rgb: 6, 131, 149;
+  --second-color: #a29384;
+  --second-color-rgb: 162, 147, 132;
+  --second-bg-color: #e9e6de;
+
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-xxl: 1400px;
+}
+
+@font-face {
+  font-family: "Co Headline";
+  src: url(../fonts/Co-Headline-Corp/Co-Headline-Corp.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-width: 100vw;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Co Headline", Arial, sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+*::selection {
+  background-color: rgba(var(--main-color-rgb), 0.4);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  /* background-color: #f00; */
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 25px;
+}
+
+.text-main-color {
+  color: var(--main-color) !important;
+}
+
+.text-second-color {
+  color: var(--second-color) !important;
+}
